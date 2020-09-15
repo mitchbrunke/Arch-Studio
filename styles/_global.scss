@@ -15,3 +15,46 @@ h4,
 h5 {
   font-family: "Spartan", sans-serif;
 }
+
+nav {
+  font-family: Spartan;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 25px;
+  display: flex;
+  align-items: center;
+  padding-top: 56px;
+  width: 550px;
+
+  ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  li {
+    padding: 0 27px 0 27px;
+  }
+
+  a {
+    text-decoration: none;
+    color: #7d828f;
+  }
+
+  .logo {
+    padding-right: 66.5px;
+  }
+}
+
+.main-container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  text-indent: 0;
+  list-style-type: none;
+}
