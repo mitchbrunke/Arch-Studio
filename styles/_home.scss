@@ -60,3 +60,35 @@
     text-align: right;
   }
 }
+
+.numbers {
+  background: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+  width: 320px;
+  position: absolute;
+  left: 90px;
+  top: 793px;
+
+  .number {
+    height: 100%;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Spartan;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 25px;
+    color: #7d828f;
+  }
+
+  .active {
+    color: white;
+    background: #1b1d23;
+  }
+}
