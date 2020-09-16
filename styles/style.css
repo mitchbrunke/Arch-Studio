@@ -29,7 +29,7 @@ nav {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding-top: 56px;
+  padding: 56px 0;
   width: 550px;
 }
 
@@ -59,7 +59,7 @@ nav .logo {
 }
 
 .main-container {
-  max-width: 1100px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -68,5 +68,67 @@ ul {
   padding: 0;
   text-indent: 0;
   list-style-type: none;
+}
+
+.hero-slides {
+  height: 720px;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 5;
+}
+
+.slide {
+  background: url(/assets/home/desktop/image-hero-paramour.jpg);
+  background-size: cover;
+  height: 100%;
+  position: relative;
+}
+
+.slide h3 {
+  font-family: Spartan;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 80px;
+  /* or 100% */
+  letter-spacing: -2px;
+  color: #ffffff;
+}
+
+.slide p {
+  font-family: Spartan;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  padding: 14px 99px 40px 0;
+  /* or 167% */
+  color: #ffffff;
+}
+
+.slide .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.slide .slide-content {
+  color: white;
+  padding: 180px 376px 179px 190px;
+}
+
+.slide button {
+  background: #1b1d23;
+  color: white;
+  border: none;
+  padding: 24px 32px;
+  font-family: Spartan;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: right;
 }
 /*# sourceMappingURL=style.css.map */

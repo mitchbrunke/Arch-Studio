@@ -4,6 +4,13 @@
   box-sizing: border-box;
 }
 
+$very-dark-blue: #1b1d23;
+$dark-grey: #60636d;
+$medium-grey: #7d828f;
+$light-grey: #c8ccd8;
+$very-light-grey: #eeeff4;
+$error-red: DF5656;
+
 p {
   font-family: "Spartan", sans-serif;
 }
@@ -24,7 +31,7 @@ nav {
   line-height: 25px;
   display: flex;
   align-items: center;
-  padding-top: 56px;
+  padding: 56px 0;
   width: 550px;
 
   ul {
@@ -48,7 +55,7 @@ nav {
 }
 
 .main-container {
-  max-width: 1100px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 

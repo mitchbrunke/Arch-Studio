@@ -1,0 +1,62 @@
+.hero-slides {
+  height: 720px;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 5;
+}
+
+.slide {
+  background: url(/assets/home/desktop/image-hero-paramour.jpg);
+  background-size: cover;
+  height: 100%;
+  position: relative;
+
+  h3 {
+    font-family: Spartan;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 80px;
+    /* or 100% */
+    letter-spacing: -2px;
+    color: #ffffff;
+  }
+
+  p {
+    font-family: Spartan;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    padding: 14px 99px 40px 0;
+    /* or 167% */
+
+    color: #ffffff;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+  }
+
+  .slide-content {
+    color: white;
+    padding: 180px 376px 179px 190px;
+  }
+
+  button {
+    background: #1b1d23;
+    color: white;
+    border: none;
+    padding: 24px 32px;
+    font-family: Spartan;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: right;
+  }
+}
