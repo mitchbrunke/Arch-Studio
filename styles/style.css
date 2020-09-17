@@ -70,6 +70,17 @@ ul {
   list-style-type: none;
 }
 
+.grey-heading {
+  font-family: Spartan;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 200px;
+  line-height: 200px;
+  /* identical to box height, or 100% */
+  letter-spacing: -5px;
+  color: #eeeff4;
+}
+
 .hero-slides {
   height: 720px;
   background: rgba(0, 0, 0, 0.5);
@@ -177,5 +188,49 @@ ul {
 .numbers .active {
   color: white;
   background: #1b1d23;
+}
+
+.intro #grey-home {
+  padding-top: 95px;
+  z-index: 5;
+}
+
+.intro #welcome {
+  font-family: Spartan;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 56px;
+  line-height: 56px;
+  letter-spacing: -2px;
+  width: 493px;
+  color: #1b1d23;
+  margin-left: 189px;
+  margin-top: -15px;
+}
+
+.intro .intro-content {
+  width: 493px;
+  font-family: Spartan;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  color: #60636d;
+  margin-left: 189px;
+  padding-top: 56px;
+}
+
+.intro #img-intro {
+  position: absolute;
+  background: url(/assets/home/desktop/image-welcome.jpg);
+  width: 350px;
+  height: 568px;
+  left: 925px;
+  top: 1067px;
+  z-index: -1;
+}
+
+.intro p {
+  padding: 5px 0;
 }
 /*# sourceMappingURL=style.css.map */
