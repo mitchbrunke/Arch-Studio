@@ -1,5 +1,6 @@
 .hero-slides {
   height: 720px;
+  width: 100%;
   background: rgba(0, 0, 0, 0.5);
   z-index: 5;
 }
@@ -70,7 +71,7 @@
   height: 80px;
   width: 320px;
   position: absolute;
-  left: 90px;
+  left: 85px;
   top: 793px;
 
   .number {
@@ -136,5 +137,148 @@
 
   p {
     padding: 5px 0;
+  }
+
+  .small-team {
+    position: relative;
+    background: url(/assets/home/desktop/image-small-team.jpg);
+    width: 1110px;
+    height: 560px;
+    margin-top: 200px;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.55);
+  }
+
+  .content-container-team {
+    margin: 168px 0 240px 190px;
+  }
+  #white-home {
+    font-family: Spartan;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 56px;
+    /* or 100% */
+    letter-spacing: -2px;
+    color: #ffffff;
+    padding-bottom: 26px;
+  }
+}
+
+.featured {
+  width: 100%;
+
+  .top-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 200px;
+  }
+
+  h3 {
+    font-family: Spartan;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 56px;
+    /* identical to box height, or 100% */
+    letter-spacing: -2px;
+    color: #1b1d23;
+  }
+
+  .cards {
+    width: 100%;
+    margin-top: 64px;
+    margin-bottom: 200px;
+    border: 1px solid blueviolet;
+    height: 560px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .card {
+    width: 350px;
+    height: 100%;
+    position: relative;
+  }
+
+  .number-project {
+    font-family: Spartan;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 200px;
+    line-height: 200px;
+    /* identical to box height, or 100% */
+    text-align: right;
+    letter-spacing: -5px;
+    color: #ffffff;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    padding-top: 32px;
+  }
+  .card1 {
+    background-image: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0.0001) 0.01%,
+        rgba(0, 0, 0, 0.499044) 100%
+      ),
+      url(/assets/portfolio/desktop/image-del-sol.jpg);
+  }
+
+  .card2 {
+    background-image: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0.0001) 0.01%,
+        rgba(0, 0, 0, 0.499044) 100%
+      ),
+      url(/assets/portfolio/desktop/image-228b.jpg);
+  }
+
+  .card3 {
+    background-image: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0.0001) 0.01%,
+        rgba(0, 0, 0, 0.499044) 100%
+      ),
+      url(/assets/portfolio/desktop/image-prototype.jpg);
+  }
+
+  .card-text {
+    color: white;
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+
+    .view {
+      font-family: Spartan;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 15px;
+      line-height: 25px;
+      /* identical to box height, or 167% */
+      color: #ffffff;
+      mix-blend-mode: normal;
+      opacity: 0.75;
+      text-decoration: none;
+      cursor: pointer;
+    }
+
+    .name {
+      font-family: Spartan;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 18px;
+      line-height: 25px;
+      /* identical to box height, or 139% */
+      color: #ffffff;
+    }
   }
 }

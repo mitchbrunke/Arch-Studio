@@ -55,7 +55,7 @@ nav {
 }
 
 .main-container {
-  max-width: 1100px;
+  max-width: 1110px;
   margin: 0 auto;
 }
 
@@ -75,4 +75,40 @@ ul {
   /* identical to box height, or 100% */
   letter-spacing: -5px;
   color: #eeeff4;
+}
+
+.archbutton {
+  background: #1b1d23;
+  color: white;
+  border: none;
+  padding: 24px 32px;
+  font-family: Spartan;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: right;
+  cursor: pointer;
+
+  &:hover {
+    background: #979797;
+    border: none;
+  }
+}
+
+footer {
+  width: 900px;
+  height: 200px;
+  background: #eeeff4;
+
+  .logo-container {
+    width: 200px;
+    height: 200px;
+    background: #1b1d23;
+  }
+
+  #logo-footer {
+    display: block;
+    margin: auto;
+  }
 }

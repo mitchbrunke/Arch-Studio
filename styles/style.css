@@ -59,7 +59,7 @@ nav .logo {
 }
 
 .main-container {
-  max-width: 1100px;
+  max-width: 1110px;
   margin: 0 auto;
 }
 
@@ -81,8 +81,45 @@ ul {
   color: #eeeff4;
 }
 
+.archbutton {
+  background: #1b1d23;
+  color: white;
+  border: none;
+  padding: 24px 32px;
+  font-family: Spartan;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: right;
+  cursor: pointer;
+}
+
+.archbutton:hover {
+  background: #979797;
+  border: none;
+}
+
+footer {
+  width: 900px;
+  height: 200px;
+  background: #eeeff4;
+}
+
+footer .logo-container {
+  width: 200px;
+  height: 200px;
+  background: #1b1d23;
+}
+
+footer #logo-footer {
+  display: block;
+  margin: auto;
+}
+
 .hero-slides {
   height: 720px;
+  width: 100%;
   background: rgba(0, 0, 0, 0.5);
   z-index: 5;
 }
@@ -161,7 +198,7 @@ ul {
   height: 80px;
   width: 320px;
   position: absolute;
-  left: 90px;
+  left: 85px;
   top: 793px;
 }
 
@@ -232,5 +269,151 @@ ul {
 
 .intro p {
   padding: 5px 0;
+}
+
+.intro .small-team {
+  position: relative;
+  background: url(/assets/home/desktop/image-small-team.jpg);
+  width: 1110px;
+  height: 560px;
+  margin-top: 200px;
+}
+
+.intro .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.55);
+}
+
+.intro .content-container-team {
+  margin: 168px 0 240px 190px;
+}
+
+.intro #white-home {
+  font-family: Spartan;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 56px;
+  line-height: 56px;
+  /* or 100% */
+  letter-spacing: -2px;
+  color: #ffffff;
+  padding-bottom: 26px;
+}
+
+.featured {
+  width: 100%;
+}
+
+.featured .top-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 200px;
+}
+
+.featured h3 {
+  font-family: Spartan;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 56px;
+  line-height: 56px;
+  /* identical to box height, or 100% */
+  letter-spacing: -2px;
+  color: #1b1d23;
+}
+
+.featured .cards {
+  width: 100%;
+  margin-top: 64px;
+  margin-bottom: 200px;
+  border: 1px solid blueviolet;
+  height: 560px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.featured .card {
+  width: 350px;
+  height: 100%;
+  position: relative;
+}
+
+.featured .number-project {
+  font-family: Spartan;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 200px;
+  line-height: 200px;
+  /* identical to box height, or 100% */
+  text-align: right;
+  letter-spacing: -5px;
+  color: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+  padding-top: 32px;
+}
+
+.featured .card1 {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0.01%, rgba(0, 0, 0, 0.0001)), to(rgba(0, 0, 0, 0.499044))), url(/assets/portfolio/desktop/image-del-sol.jpg);
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0.01%, rgba(0, 0, 0, 0.499044) 100%), url(/assets/portfolio/desktop/image-del-sol.jpg);
+}
+
+.featured .card2 {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0.01%, rgba(0, 0, 0, 0.0001)), to(rgba(0, 0, 0, 0.499044))), url(/assets/portfolio/desktop/image-228b.jpg);
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0.01%, rgba(0, 0, 0, 0.499044) 100%), url(/assets/portfolio/desktop/image-228b.jpg);
+}
+
+.featured .card3 {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0.01%, rgba(0, 0, 0, 0.0001)), to(rgba(0, 0, 0, 0.499044))), url(/assets/portfolio/desktop/image-prototype.jpg);
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0.01%, rgba(0, 0, 0, 0.499044) 100%), url(/assets/portfolio/desktop/image-prototype.jpg);
+}
+
+.featured .card-text {
+  color: white;
+  position: absolute;
+  bottom: 40px;
+  left: 40px;
+}
+
+.featured .card-text .view {
+  font-family: Spartan;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  /* identical to box height, or 167% */
+  color: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.75;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.featured .card-text .name {
+  font-family: Spartan;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  /* identical to box height, or 139% */
+  color: #ffffff;
 }
 /*# sourceMappingURL=style.css.map */
