@@ -4,10 +4,36 @@
   background: rgba(0, 0, 0, 0.5);
   z-index: 5;
 }
-
-.slide {
+.slide1 {
   background: url(/assets/home/desktop/image-hero-paramour.jpg);
   background-size: cover;
+}
+
+.slide2 {
+  background: url(/assets/home/desktop/image-hero-seraph.jpg);
+  display: none;
+}
+
+.slide3 {
+  background: url(/assets/home/desktop/image-hero-trinity.jpg);
+  display: none;
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.05);
+  }
+}
+
+.slide4 {
+  background: url(/assets/home/desktop/image-hero-trinity.jpg);
+  display: none;
+}
+
+.slide {
+  // background-size: cover;
   height: 100%;
   position: relative;
 
