@@ -316,6 +316,15 @@ footer .footer-btn {
   font-size: 15px;
   line-height: 25px;
   color: #7d828f;
+  cursor: pointer;
+}
+
+.numbers .number:hover {
+  background: #eeeff4;
+}
+
+.numbers .number p {
+  pointer-events: none;
 }
 
 .numbers .active {

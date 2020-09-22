@@ -17,6 +17,7 @@
 .slide3 {
   background: url(/assets/home/desktop/image-hero-trinity.jpg);
   display: none;
+
   .overlay {
     position: absolute;
     top: 0;
@@ -112,6 +113,15 @@
     font-size: 15px;
     line-height: 25px;
     color: #7d828f;
+    cursor: pointer;
+
+    &:hover {
+      background: #eeeff4;
+    }
+
+    p {
+      pointer-events: none;
+    }
   }
 
   .active {
