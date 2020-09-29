@@ -9,24 +9,26 @@ const slideTwo = document.querySelector(".slide2");
 const slideThree = document.querySelector(".slide3");
 const slideFour = document.querySelector(".slide4");
 
-//active class exists on slide 1. delete it
+//if active class exists, delete it
 
-removeActive = () =>
+removeActive = () => {
   numbers.forEach((number) => {
-    number.classList.remove("active");
+    if (number.classList.contains("active")) {
+      number.classList.remove("active");
+    }
   });
-
+};
 // add active class on click
 
 addActive = (e) => {
   removeActive();
   e.target.classList.add("active");
-  activateSlide();
+  activateSlide(e);
 };
 
-//use active class to display slide (switch maybe?)
+//use active class to display slide
 
-activateSlide = () => {
+activateSlide = (e) => {
   if (playSlideOne.classList.contains("active")) {
     console.log("slide one is active");
     slideOne.style.display = "flex";
