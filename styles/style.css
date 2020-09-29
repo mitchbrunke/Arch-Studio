@@ -22,15 +22,15 @@ nav {
   font-family: Spartan;
   font-style: normal;
   font-weight: bold;
-  font-size: 15px;
-  line-height: 25px;
+  font-size: 1rem;
+  line-height: 1.7rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 52px 0;
+  padding: 3.46rem 0;
   width: 550px;
 }
 
@@ -47,7 +47,7 @@ nav ul {
 }
 
 nav li {
-  padding: 0 27px 0 27px;
+  padding: 0 1.8rem 0 1.8rem;
 }
 
 nav a {
@@ -59,18 +59,18 @@ nav a:hover {
   font-family: Spartan;
   font-style: normal;
   font-weight: bold;
-  font-size: 15px;
-  line-height: 25px;
+  font-size: 1rem;
+  line-height: 1.66rem;
   /* identical to box height, or 167% */
   color: #1b1d23;
 }
 
 nav .logo {
-  padding-right: 66.5px;
+  padding-right: 4.43rem;
 }
 
 .main-container {
-  max-width: 1110px;
+  max-width: 77.1%;
   margin: 0 auto;
 }
 
@@ -85,8 +85,8 @@ ul {
   font-family: Spartan;
   font-style: normal;
   font-weight: bold;
-  font-size: 200px;
-  line-height: 200px;
+  font-size: 13.33rem;
+  line-height: 13.33rem;
   /* identical to box height, or 100% */
   letter-spacing: -5px;
   color: #eeeff4;
@@ -96,12 +96,12 @@ ul {
   background: #1b1d23;
   color: white;
   border: none;
-  padding: 24px 32px;
+  padding: 1.6rem 2.133rem;
   font-family: Spartan;
   font-style: normal;
   font-weight: bold;
-  font-size: 15px;
-  line-height: 25px;
+  font-size: 1rem;
+  line-height: 1.66rem;
   text-align: right;
   cursor: pointer;
 }
@@ -112,7 +112,7 @@ ul {
 }
 
 footer {
-  width: 984px;
+  width: 85%;
   height: 200px;
   background: #eeeff4;
   position: relative;
@@ -123,8 +123,8 @@ footer {
 
 footer #logo-container {
   background: #1b1d23;
-  width: 200px;
-  height: 200px;
+  width: 13.3rem;
+  height: 13.3rem;
 }
 
 footer #logo-footer {
@@ -137,8 +137,8 @@ footer #footer-nav {
   font-family: Spartan;
   font-style: normal;
   font-weight: bold;
-  font-size: 15px;
-  line-height: 25px;
+  font-size: 1rem;
+  line-height: 1.66rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -161,7 +161,7 @@ footer #footer-nav ul {
 }
 
 footer #footer-nav li {
-  padding: 0 27px 0 27px;
+  padding: 0 1.8rem 0 1.8rem;
 }
 
 footer #footer-nav a {
@@ -174,20 +174,20 @@ footer #footer-nav a:hover {
   font-family: Spartan;
   font-style: normal;
   font-weight: bold;
-  font-size: 15px;
-  line-height: 25px;
+  font-size: 1rem;
+  line-height: 1.66rem;
   /* identical to box height, or 167% */
   color: #1b1d23;
 }
 
 footer .footer-btn {
   position: relative;
-  top: 64px;
-  left: 257px;
+  top: 4.26rem;
+  left: 17.133333333333333rem;
 }
 
 .hero-slides {
-  height: 720px;
+  height: 75vh;
   width: 100%;
   background: rgba(0, 0, 0, 0.5);
   z-index: 5;
@@ -231,8 +231,8 @@ footer .footer-btn {
   font-family: Spartan;
   font-style: normal;
   font-weight: bold;
-  font-size: 80px;
-  line-height: 80px;
+  font-size: 5.33rem;
+  line-height: 5.33rem;
   /* or 100% */
   letter-spacing: -2px;
   color: #ffffff;
@@ -242,8 +242,8 @@ footer .footer-btn {
   font-family: Spartan;
   font-style: normal;
   font-weight: 500;
-  font-size: 15px;
-  line-height: 25px;
+  font-size: 1rem;
+  line-height: 1.66rem;
   padding: 14px 99px 40px 0;
   /* or 167% */
   color: #ffffff;
@@ -260,14 +260,14 @@ footer .footer-btn {
 
 .slide .slide-content {
   color: white;
-  padding: 180px 376px 179px 190px;
+  padding: 12rem 25.06rem 12rem 12.66rem;
 }
 
 .slide button {
   background: #1b1d23;
   color: white;
   border: none;
-  padding: 24px 32px;
+  padding: 1.6rem 2.13rem;
   font-family: Spartan;
   font-style: normal;
   font-weight: bold;
@@ -291,16 +291,16 @@ footer .footer-btn {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  height: 80px;
-  width: 320px;
+  height: 5.33rem;
+  width: 21.33rem;
   position: absolute;
-  left: 85px;
-  top: 793px;
+  left: 5.66rem;
+  top: 52.86rem;
 }
 
 .numbers .number {
   height: 100%;
-  width: 80px;
+  width: 5.33rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -313,8 +313,8 @@ footer .footer-btn {
   font-family: Spartan;
   font-style: normal;
   font-weight: bold;
-  font-size: 15px;
-  line-height: 25px;
+  font-size: 1rem;
+  line-height: 1.6rem;
   color: #7d828f;
   cursor: pointer;
 }
@@ -333,7 +333,7 @@ footer .footer-btn {
 }
 
 .intro #grey-home {
-  padding-top: 95px;
+  padding-top: 6.33rem;
   z-index: 5;
 }
 
@@ -341,47 +341,48 @@ footer .footer-btn {
   font-family: Spartan;
   font-style: normal;
   font-weight: bold;
-  font-size: 56px;
-  line-height: 56px;
+  font-size: 3.73rem;
+  line-height: 3.3rem;
   letter-spacing: -2px;
-  width: 493px;
+  width: 100%;
   color: #1b1d23;
-  margin-left: 189px;
-  margin-top: -15px;
+  margin-left: 12.6rem;
+  margin-top: -1rem;
 }
 
 .intro .intro-content {
-  width: 493px;
+  width: 32.86rem;
   font-family: Spartan;
   font-style: normal;
   font-weight: 500;
-  font-size: 15px;
-  line-height: 25px;
+  font-size: 1rem;
+  line-height: 1.6rem;
   color: #60636d;
-  margin-left: 189px;
-  padding-top: 56px;
+  margin-left: 12.6rem;
+  padding-top: 3.73rem;
 }
 
 .intro #img-intro {
   position: absolute;
   background: url(/assets/home/desktop/image-welcome.jpg);
-  width: 350px;
-  height: 568px;
-  left: 925px;
-  top: 1067px;
+  width: 23.33rem;
+  height: 37.86666666666667rem;
+  left: 61.666666666666664rem;
+  top: 71.13333333333334rem;
   z-index: -1;
 }
 
 .intro p {
-  padding: 5px 0;
+  padding: 0.33rem 0;
 }
 
 .intro .small-team {
   position: relative;
   background: url(/assets/home/desktop/image-small-team.jpg);
-  width: 1110px;
-  height: 560px;
-  margin-top: 200px;
+  background-size: cover;
+  width: 100%;
+  height: 37.333333333333336rem;
+  margin-top: 13.33rem;
 }
 
 .intro .overlay {
@@ -401,12 +402,12 @@ footer .footer-btn {
   font-family: Spartan;
   font-style: normal;
   font-weight: bold;
-  font-size: 56px;
-  line-height: 56px;
+  font-size: 3.73rem;
+  line-height: 100%;
   /* or 100% */
   letter-spacing: -2px;
   color: #ffffff;
-  padding-bottom: 26px;
+  padding-bottom: 1.73rem;
 }
 
 .featured {
@@ -423,15 +424,15 @@ footer .footer-btn {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 200px;
+  margin-top: 13.33rem;
 }
 
 .featured h3 {
   font-family: Spartan;
   font-style: normal;
   font-weight: bold;
-  font-size: 56px;
-  line-height: 56px;
+  font-size: 3.73rem;
+  line-height: 100%;
   /* identical to box height, or 100% */
   letter-spacing: -2px;
   color: #1b1d23;
@@ -439,9 +440,9 @@ footer .footer-btn {
 
 .featured .cards {
   width: 100%;
-  margin-top: 64px;
-  margin-bottom: 200px;
-  height: 560px;
+  margin-top: 4.26rem;
+  margin-bottom: 13.33rem;
+  height: 37.3rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -455,7 +456,7 @@ footer .footer-btn {
 }
 
 .featured .card {
-  width: 350px;
+  width: 23.33rem;
   height: 100%;
   position: relative;
 }
@@ -464,15 +465,15 @@ footer .footer-btn {
   font-family: Spartan;
   font-style: normal;
   font-weight: bold;
-  font-size: 200px;
-  line-height: 200px;
+  font-size: 13.33rem;
+  line-height: 100%;
   /* identical to box height, or 100% */
   text-align: right;
   letter-spacing: -5px;
   color: #ffffff;
   mix-blend-mode: normal;
   opacity: 0.5;
-  padding-top: 32px;
+  padding-top: 2.13rem;
 }
 
 .featured .card1 {
@@ -493,8 +494,8 @@ footer .footer-btn {
 .featured .card-text {
   color: white;
   position: absolute;
-  bottom: 40px;
-  left: 40px;
+  bottom: 2.66rem;
+  left: 2.66rem;
 }
 
 .featured .card-text .view {
@@ -502,7 +503,7 @@ footer .footer-btn {
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
-  line-height: 25px;
+  line-height: 100%;
   /* identical to box height, or 167% */
   color: #ffffff;
   mix-blend-mode: normal;
@@ -515,8 +516,8 @@ footer .footer-btn {
   font-family: Spartan;
   font-style: normal;
   font-weight: bold;
-  font-size: 18px;
-  line-height: 25px;
+  font-size: 1.2rem;
+  line-height: 100%;
   /* identical to box height, or 139% */
   color: #ffffff;
 }

@@ -28,11 +28,11 @@ nav {
   font-family: Spartan;
   font-style: normal;
   font-weight: bold;
-  font-size: 15px;
-  line-height: 25px;
+  font-size: 1rem;
+  line-height: 1.7rem;
   display: flex;
   align-items: center;
-  padding: 52px 0;
+  padding: 3.46rem 0;
   width: 550px;
 
   ul {
@@ -42,7 +42,7 @@ nav {
   }
 
   li {
-    padding: 0 27px 0 27px;
+    padding: 0 1.8rem 0 1.8rem;
   }
 
   a {
@@ -53,20 +53,20 @@ nav {
       font-family: Spartan;
       font-style: normal;
       font-weight: bold;
-      font-size: 15px;
-      line-height: 25px;
+      font-size: 1rem;
+      line-height: 1.66rem;
       /* identical to box height, or 167% */
       color: #1b1d23;
     }
   }
 
   .logo {
-    padding-right: 66.5px;
+    padding-right: 4.43rem;
   }
 }
 
 .main-container {
-  max-width: 1110px;
+  max-width: 77.1%;
   margin: 0 auto;
 }
 
@@ -81,8 +81,8 @@ ul {
   font-family: Spartan;
   font-style: normal;
   font-weight: bold;
-  font-size: 200px;
-  line-height: 200px;
+  font-size: 13.33rem;
+  line-height: 13.33rem;
   /* identical to box height, or 100% */
   letter-spacing: -5px;
   color: #eeeff4;
@@ -92,12 +92,12 @@ ul {
   background: #1b1d23;
   color: white;
   border: none;
-  padding: 24px 32px;
+  padding: 1.6rem 2.133rem;
   font-family: Spartan;
   font-style: normal;
   font-weight: bold;
-  font-size: 15px;
-  line-height: 25px;
+  font-size: 1rem;
+  line-height: 1.66rem;
   text-align: right;
   cursor: pointer;
 
@@ -108,7 +108,7 @@ ul {
 }
 
 footer {
-  width: 984px;
+  width: 85%;
   height: 200px;
   background: #eeeff4;
   position: relative;
@@ -116,8 +116,8 @@ footer {
 
   #logo-container {
     background: #1b1d23;
-    width: 200px;
-    height: 200px;
+    width: 13.3rem;
+    height: 13.3rem;
   }
 
   #logo-footer {
@@ -130,8 +130,8 @@ footer {
     font-family: Spartan;
     font-style: normal;
     font-weight: bold;
-    font-size: 15px;
-    line-height: 25px;
+    font-size: 1rem;
+    line-height: 1.66rem;
     display: flex;
     align-items: center;
     width: 601px;
@@ -143,7 +143,7 @@ footer {
     }
 
     li {
-      padding: 0 27px 0 27px;
+      padding: 0 1.8rem 0 1.8rem;
     }
 
     a {
@@ -155,8 +155,8 @@ footer {
         font-family: Spartan;
         font-style: normal;
         font-weight: bold;
-        font-size: 15px;
-        line-height: 25px;
+        font-size: 1rem;
+        line-height: 1.66rem;
         /* identical to box height, or 167% */
 
         color: #1b1d23;
@@ -166,7 +166,7 @@ footer {
 
   .footer-btn {
     position: relative;
-    top: 64px;
-    left: 257px;
+    top: 4.26rem;
+    left: 17.133333333333333rem;
   }
 }

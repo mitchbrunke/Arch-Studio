@@ -1,5 +1,5 @@
 .hero-slides {
-  height: 720px;
+  height: 75vh;
   width: 100%;
   background: rgba(0, 0, 0, 0.5);
   z-index: 5;
@@ -42,8 +42,8 @@
     font-family: Spartan;
     font-style: normal;
     font-weight: bold;
-    font-size: 80px;
-    line-height: 80px;
+    font-size: 5.33rem;
+    line-height: 5.33rem;
     /* or 100% */
     letter-spacing: -2px;
     color: #ffffff;
@@ -53,8 +53,8 @@
     font-family: Spartan;
     font-style: normal;
     font-weight: 500;
-    font-size: 15px;
-    line-height: 25px;
+    font-size: 1rem;
+    line-height: 1.66rem;
     padding: 14px 99px 40px 0;
     /* or 167% */
 
@@ -72,14 +72,14 @@
 
   .slide-content {
     color: white;
-    padding: 180px 376px 179px 190px;
+    padding: 12rem 25.06rem 12rem 12.66rem;
   }
 
   button {
     background: #1b1d23;
     color: white;
     border: none;
-    padding: 24px 32px;
+    padding: 1.6rem 2.13rem;
     font-family: Spartan;
     font-style: normal;
     font-weight: bold;
@@ -95,23 +95,23 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  height: 80px;
-  width: 320px;
+  height: 5.33rem;
+  width: 21.33rem;
   position: absolute;
-  left: 85px;
-  top: 793px;
+  left: 5.66rem;
+  top: 52.86rem;
 
   .number {
     height: 100%;
-    width: 80px;
+    width: 5.33rem;
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: Spartan;
     font-style: normal;
     font-weight: bold;
-    font-size: 15px;
-    line-height: 25px;
+    font-size: 1rem;
+    line-height: 1.6rem;
     color: #7d828f;
     cursor: pointer;
 
@@ -132,7 +132,7 @@
 
 .intro {
   #grey-home {
-    padding-top: 95px;
+    padding-top: 6.33rem;
     z-index: 5;
   }
 
@@ -140,47 +140,48 @@
     font-family: Spartan;
     font-style: normal;
     font-weight: bold;
-    font-size: 56px;
-    line-height: 56px;
+    font-size: 3.73rem;
+    line-height: 3.3rem;
     letter-spacing: -2px;
-    width: 493px;
+    width: 100%;
     color: #1b1d23;
-    margin-left: 189px;
-    margin-top: -15px;
+    margin-left: 12.6rem;
+    margin-top: -1rem;
   }
 
   .intro-content {
-    width: 493px;
+    width: 32.86rem;
     font-family: Spartan;
     font-style: normal;
     font-weight: 500;
-    font-size: 15px;
-    line-height: 25px;
+    font-size: 1rem;
+    line-height: 1.6rem;
     color: #60636d;
-    margin-left: 189px;
-    padding-top: 56px;
+    margin-left: 12.6rem;
+    padding-top: 3.73rem;
   }
 
   #img-intro {
     position: absolute;
     background: url(/assets/home/desktop/image-welcome.jpg);
-    width: 350px;
-    height: 568px;
-    left: 925px;
-    top: 1067px;
+    width: 23.33rem;
+    height: 37.86666666666667rem;
+    left: 61.666666666666664rem;
+    top: 71.13333333333334rem;
     z-index: -1;
   }
 
   p {
-    padding: 5px 0;
+    padding: 0.33rem 0;
   }
 
   .small-team {
     position: relative;
     background: url(/assets/home/desktop/image-small-team.jpg);
-    width: 1110px;
-    height: 560px;
-    margin-top: 200px;
+    background-size: cover;
+    width: 100%;
+    height: 37.333333333333336rem;
+    margin-top: 13.33rem;
   }
 
   .overlay {
@@ -199,12 +200,12 @@
     font-family: Spartan;
     font-style: normal;
     font-weight: bold;
-    font-size: 56px;
-    line-height: 56px;
+    font-size: 3.73rem;
+    line-height: 100%;
     /* or 100% */
     letter-spacing: -2px;
     color: #ffffff;
-    padding-bottom: 26px;
+    padding-bottom: 1.73rem;
   }
 }
 
@@ -215,15 +216,15 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 200px;
+    margin-top: 13.33rem;
   }
 
   h3 {
     font-family: Spartan;
     font-style: normal;
     font-weight: bold;
-    font-size: 56px;
-    line-height: 56px;
+    font-size: 3.73rem;
+    line-height: 100%;
     /* identical to box height, or 100% */
     letter-spacing: -2px;
     color: #1b1d23;
@@ -231,16 +232,16 @@
 
   .cards {
     width: 100%;
-    margin-top: 64px;
-    margin-bottom: 200px;
-    height: 560px;
+    margin-top: 4.26rem;
+    margin-bottom: 13.33rem;
+    height: 37.3rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
   }
 
   .card {
-    width: 350px;
+    width: 23.33rem;
     height: 100%;
     position: relative;
   }
@@ -249,15 +250,15 @@
     font-family: Spartan;
     font-style: normal;
     font-weight: bold;
-    font-size: 200px;
-    line-height: 200px;
+    font-size: 13.33rem;
+    line-height: 100%;
     /* identical to box height, or 100% */
     text-align: right;
     letter-spacing: -5px;
     color: #ffffff;
     mix-blend-mode: normal;
     opacity: 0.5;
-    padding-top: 32px;
+    padding-top: 2.13rem;
   }
   .card1 {
     background-image: linear-gradient(
@@ -289,15 +290,15 @@
   .card-text {
     color: white;
     position: absolute;
-    bottom: 40px;
-    left: 40px;
+    bottom: 2.66rem;
+    left: 2.66rem;
 
     .view {
       font-family: Spartan;
       font-style: normal;
       font-weight: 500;
       font-size: 15px;
-      line-height: 25px;
+      line-height: 100%;
       /* identical to box height, or 167% */
       color: #ffffff;
       mix-blend-mode: normal;
@@ -310,8 +311,8 @@
       font-family: Spartan;
       font-style: normal;
       font-weight: bold;
-      font-size: 18px;
-      line-height: 25px;
+      font-size: 1.2rem;
+      line-height: 100%;
       /* identical to box height, or 139% */
       color: #ffffff;
     }
