@@ -6,6 +6,12 @@
   font-size: 15px;
 }
 
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 p {
   font-family: "Spartan", sans-serif;
 }
@@ -145,7 +151,7 @@ footer #footer-nav {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 601px;
+  width: 60%;
 }
 
 footer #footer-nav ul {
@@ -184,6 +190,17 @@ footer .footer-btn {
   position: relative;
   top: 4.26rem;
   left: 17.133333333333333rem;
+}
+
+@media (max-width: 500px) {
+  html,
+  body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  .main-container {
+    width: 100%;
+  }
 }
 
 .hero-slides {
@@ -232,7 +249,7 @@ footer .footer-btn {
   font-style: normal;
   font-weight: bold;
   font-size: 5.33rem;
-  line-height: 5.33rem;
+  line-height: 100%;
   /* or 100% */
   letter-spacing: -2px;
   color: #ffffff;
@@ -243,8 +260,8 @@ footer .footer-btn {
   font-style: normal;
   font-weight: 500;
   font-size: 1rem;
-  line-height: 1.66rem;
-  padding: 14px 99px 40px 0;
+  line-height: 167%;
+  padding: 0.93rem 6.6rem 2.66rem 0;
   /* or 167% */
   color: #ffffff;
 }
@@ -520,5 +537,22 @@ footer .footer-btn {
   line-height: 100%;
   /* identical to box height, or 139% */
   color: #ffffff;
+}
+
+@media (max-width: 500px) {
+  .hero-slides h3 {
+    font-family: Spartan;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 100%;
+    /* or 100% */
+    letter-spacing: -2px;
+    color: #ffffff;
+  }
+  .hero-slides .slide-content {
+    color: white;
+    padding: 0rem;
+  }
 }
 /*# sourceMappingURL=style.css.map */

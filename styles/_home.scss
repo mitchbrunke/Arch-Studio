@@ -43,7 +43,7 @@
     font-style: normal;
     font-weight: bold;
     font-size: 5.33rem;
-    line-height: 5.33rem;
+    line-height: 100%;
     /* or 100% */
     letter-spacing: -2px;
     color: #ffffff;
@@ -54,8 +54,8 @@
     font-style: normal;
     font-weight: 500;
     font-size: 1rem;
-    line-height: 1.66rem;
-    padding: 14px 99px 40px 0;
+    line-height: 167%;
+    padding: 0.93rem 6.6rem 2.66rem 0;
     /* or 167% */
 
     color: #ffffff;
@@ -315,6 +315,26 @@
       line-height: 100%;
       /* identical to box height, or 139% */
       color: #ffffff;
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .hero-slides {
+    h3 {
+      font-family: Spartan;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 3rem;
+      line-height: 100%;
+      /* or 100% */
+      letter-spacing: -2px;
+      color: #ffffff;
+    }
+
+    .slide-content {
+      color: white;
+      padding: 0rem;
     }
   }
 }

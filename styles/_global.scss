@@ -5,6 +5,12 @@
   font-size: 15px;
 }
 
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 $very-dark-blue: #1b1d23;
 $dark-grey: #60636d;
 $medium-grey: #7d828f;
@@ -134,7 +140,7 @@ footer {
     line-height: 1.66rem;
     display: flex;
     align-items: center;
-    width: 601px;
+    width: 60%;
 
     ul {
       display: flex;
@@ -168,5 +174,17 @@ footer {
     position: relative;
     top: 4.26rem;
     left: 17.133333333333333rem;
+  }
+}
+
+@media (max-width: 500px) {
+  html,
+  body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  .main-container {
+    width: 100%;
   }
 }
