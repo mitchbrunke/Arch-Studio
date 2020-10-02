@@ -16,8 +16,6 @@ const slideTwo = document.querySelector(".slide2");
 const slideThree = document.querySelector(".slide3");
 const slideFour = document.querySelector(".slide4");
 
-//nav functions
-
 //slider functions
 
 //if active class exists, delete it

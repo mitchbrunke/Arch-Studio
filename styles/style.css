@@ -280,7 +280,7 @@ footer .footer-btn {
 }
 
 .hero-slides {
-  height: 75vh;
+  height: 720px;
   width: 100%;
   background: rgba(0, 0, 0, 0.5);
   z-index: 5;
@@ -386,9 +386,9 @@ footer .footer-btn {
           justify-content: center;
   height: 5.33rem;
   width: 21.33rem;
-  position: absolute;
-  left: 5.66rem;
-  top: 52.86rem;
+  position: relative;
+  left: -5.3rem;
+  top: 0px;
 }
 
 .numbers .number {
@@ -619,6 +619,7 @@ footer .footer-btn {
   .hero-slides {
     position: relative;
     min-height: 560px;
+    max-height: 565px;
   }
   .hero-slides h3 {
     font-size: 3rem;
