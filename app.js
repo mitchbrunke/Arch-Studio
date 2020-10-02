@@ -1,3 +1,10 @@
+//nav
+const navIcon = document.getElementById("burger");
+const burger = document.querySelector(".mobile-nav");
+const mobileNav = document.querySelector(".mob-nav-container");
+
+//slider
+
 const numbers = document.querySelectorAll(".number");
 const slideController = document.querySelector(".numbers");
 const playSlideOne = document.getElementById("one");
@@ -8,6 +15,10 @@ const slideOne = document.querySelector(".slide1");
 const slideTwo = document.querySelector(".slide2");
 const slideThree = document.querySelector(".slide3");
 const slideFour = document.querySelector(".slide4");
+
+//nav functions
+
+//slider functions
 
 //if active class exists, delete it
 
@@ -56,5 +67,18 @@ activateSlide = (e) => {
   }
 };
 //add event listeners
+
+burger.addEventListener("click", (e) => {
+  mobileNav.classList.toggle("open-nav");
+  if (mobileNav.classList.contains("open-nav")) {
+    console.log("the nav is open");
+    mobileNav.style.display = "block";
+    navIcon.src = "/assets/icons/icon-close.svg";
+  } else {
+    mobileNav.style.display = "none";
+    console.log("the nav is closed");
+    navIcon.src = "/assets/icons/icon-hamburger.svg";
+  }
+});
 
 slideController.addEventListener("click", addActive);
