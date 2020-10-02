@@ -6,12 +6,6 @@
   font-size: 15px;
 }
 
-html,
-body {
-  max-width: 100%;
-  overflow-x: hidden;
-}
-
 p {
   font-family: "Spartan", sans-serif;
 }
@@ -193,13 +187,57 @@ footer .footer-btn {
 }
 
 @media (max-width: 500px) {
-  html,
-  body {
+  .main-container {
+    margin: 0;
     max-width: 100%;
     overflow-x: hidden;
   }
-  .main-container {
+  nav {
+    padding: 3.46rem 0;
+    max-width: 100%;
+  }
+  nav ul {
+    display: none;
+  }
+  footer {
     width: 100%;
+    height: 60vh;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: 15rem;
+  }
+  footer #logo-container {
+    width: 120px;
+    height: 120px;
+    position: relative;
+    top: -50%;
+    left: 52%;
+  }
+  footer #logo-footer {
+    position: relative;
+    top: 30%;
+    left: 7.5%;
+  }
+  footer #footer-nav ul {
+    display: block;
+    margin-top: 5rem;
+    padding-left: 1rem;
+    -ms-flex-line-pack: center;
+        align-content: center;
+  }
+  footer #footer-nav li {
+    padding: 1.25rem 0;
+  }
+  footer .footer-btn {
+    position: relative;
+    top: 15%;
+    left: 75px;
   }
 }
 
@@ -540,19 +578,179 @@ footer .footer-btn {
 }
 
 @media (max-width: 500px) {
+  .hero-slides {
+    position: relative;
+    min-height: 560px;
+  }
   .hero-slides h3 {
-    font-family: Spartan;
-    font-style: normal;
-    font-weight: bold;
+    font-size: 3rem;
+    line-height: 100%;
+  }
+  .hero-slides .slide-content {
+    padding: 110px 32px;
+  }
+  .hero-slides .slide p {
+    padding: 15px 0 57px 0;
+  }
+  .hero-slides .slide1 {
+    background: url(/assets/home/mobile/image-hero-paramour.jpg);
+    background-size: cover;
+  }
+  .hero-slides .slide2 {
+    background: url(/assets/home/mobile/image-hero-seraph.jpg);
+    display: none;
+  }
+  .hero-slides .slide3 {
+    background: url(/assets/home/mobile/image-hero-trinity.jpg);
+    display: none;
+  }
+  .numbers {
+    display: none;
+  }
+  .intro {
+    padding-top: 72px;
+  }
+  .intro #grey-home {
+    display: none;
+  }
+  .intro #welcome {
+    font-size: 2.667rem;
+    line-height: 3.2rem;
+    letter-spacing: -1px;
+    width: 311px;
+    color: #1b1d23;
+    margin: 0;
+    padding: 68px 32px 29px 32px;
+  }
+  .intro .intro-content {
+    margin: 0 auto;
+    padding-top: 0;
+    max-width: 311px;
+  }
+  .intro #img-intro {
+    display: none;
+  }
+  .intro .small-team {
+    position: relative;
+    background: url(/assets/home/mobile/image-small-team.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 560px;
+    margin-top: 97px;
+  }
+  .intro .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.55);
+  }
+  .intro .content-container-team {
+    margin: 0;
+    padding: 180px 32px;
+  }
+  .intro #white-home {
     font-size: 3rem;
     line-height: 100%;
     /* or 100% */
-    letter-spacing: -2px;
-    color: #ffffff;
+    padding-bottom: 32px;
   }
-  .hero-slides .slide-content {
+  .featured {
+    width: 100%;
+    position: relative;
+    border: 1px solid red;
+  }
+  .featured .top-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-top: 2rem;
+  }
+  .featured button {
+    position: absolute;
+    bottom: -150px;
+    left: 2rem;
+    width: 311px;
+    text-align: center;
+  }
+  .featured h3 {
+    font-family: Spartan;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3.73rem;
+    line-height: 100%;
+    /* identical to box height, or 100% */
+    letter-spacing: -2px;
+    color: #1b1d23;
+  }
+  .featured .cards {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-top: 0;
+  }
+  .featured .number-project {
+    display: none;
+  }
+  .featured .card {
+    width: 311px;
+    min-height: 240px;
+    margin: 1.5rem auto;
+    background-size: cover;
+  }
+  .featured .card1 {
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0.01%, rgba(0, 0, 0, 0.0001)), to(rgba(0, 0, 0, 0.499044))), url(/assets/portfolio/mobile/image-del-sol.jpg);
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0.01%, rgba(0, 0, 0, 0.499044) 100%), url(/assets/portfolio/mobile/image-del-sol.jpg);
+  }
+  .featured .card2 {
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0.01%, rgba(0, 0, 0, 0.0001)), to(rgba(0, 0, 0, 0.499044))), url(/assets/portfolio/mobile/image-228b.jpg);
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0.01%, rgba(0, 0, 0, 0.499044) 100%), url(/assets/portfolio/mobile/image-228b.jpg);
+  }
+  .featured .card3 {
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0.01%, rgba(0, 0, 0, 0.0001)), to(rgba(0, 0, 0, 0.499044))), url(/assets/portfolio/mobile/image-prototype.jpg);
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0.01%, rgba(0, 0, 0, 0.499044) 100%), url(/assets/portfolio/mobile/image-prototype.jpg);
+  }
+  .featured .card-text {
     color: white;
-    padding: 0rem;
+    position: absolute;
+    bottom: 2.66rem;
+    left: 2.66rem;
+  }
+  .featured .card-text .view {
+    font-family: Spartan;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 100%;
+    /* identical to box height, or 167% */
+    color: #ffffff;
+    mix-blend-mode: normal;
+    opacity: 0.75;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .featured .card-text .name {
+    font-family: Spartan;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.2rem;
+    line-height: 100%;
+    /* identical to box height, or 139% */
+    color: #ffffff;
   }
 }
 /*# sourceMappingURL=style.css.map */
